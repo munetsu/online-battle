@@ -1,0 +1,67 @@
+/* ------------------------------------- 
+* スマホ用
+------------------------------------- */
+@media screen and (max-width:480px){
+    /********************************
+    ** 検索エリア
+    *********************************/
+    .searcharea {
+        text-align: center;
+    }
+
+    .select {
+        width: 50vw;
+        font-size: 1.6rem;
+        border: solid 2px gray;
+        padding: 10px;
+        margin: 30px 5vw 0 0;
+    }
+
+    /********************************
+    ** 結果エリア
+    *********************************/
+    .resultarea {
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .resultlisthead{
+        display: flex;
+        margin-bottom: 5vh;
+
+    }
+
+    .datearea {
+        width: 20%;
+    }
+
+    .entertainerarea {
+        width: 35%;
+
+    }
+
+    .list {
+        margin: 0 1.5%;
+        padding: 1vh 0;
+    }
+
+    .head {
+        background-color: #e0e0e0;
+    }
+
+    .result {
+        display: flex;
+    }
+
+    .resultpic {
+        width: 80%;
+    }
+
+    .east {
+        background-color: #A38E6F;
+    }
+
+    .west {
+        opacity: 0.3;
+    }
+}

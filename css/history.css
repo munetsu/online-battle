@@ -1,0 +1,33 @@
+/*------------------------------------- 
+* スマホ用
+-------------------------------------*/
+@media screen and (max-width:480px){
+    #main {
+        margin: 10px;
+    }
+
+
+    .thread{
+        display: flex;
+    }
+
+    .flex_item{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        height: 5vh;
+    }
+
+    .flex_item p {
+        display: inline-block;
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+    }
+
+    /* 選択されたもの */
+    .selected {
+        background-color: #0066ff;
+        color: #fcfcfc;
+    }
+
+}
